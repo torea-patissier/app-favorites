@@ -1,0 +1,30 @@
+body{
+    font-family: Tahoma;
+    font-size: medium; 
+    /* padding: %;  */
+}
+
+header {
+    text-align: center;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1.2cm;
+    transform: translateY(60%)
+}
+
+#textes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1cm;
+    transform: translateY(30%)
+}
+
+.footer {
+    transform: translateY(400%);
+    text-align: center;
+}

@@ -18,7 +18,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-right: 1.9cm;
-  transform: translateY(70%);
+  transform: translateY(40%);
 }
 
 #textes {
@@ -27,11 +27,11 @@ header {
   justify-content: space-between;
   margin-left: 1cm;
   margin-right: 1cm;
-  transform: translateY(50%);
+  transform: translateY(40%);
 }
 
 .footer {
-  transform: translateY(7cm);
+  transform: translateY(5cm);
   text-align: center;
 }
 
@@ -45,16 +45,9 @@ header {
 }
 
 .spotifyimg {
-  margin-left: 1.8cm;
+  margin-left: 1.7cm;
 }
 
-.shazamimg {
-  margin-right: 1.2cm;
-}
-
-.uberimg {
-  margin-right: 1.2cm;
-}
 
 .shazam {
   -moz-box-shadow: 10px 10px 25px #333333;
@@ -77,7 +70,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  transform: translateY(4.7cm);
+  transform: translateY(3.7cm);
   margin-left: 3.7cm;
   margin-right: 3.7cm;
   font-size: larger;

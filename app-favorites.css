@@ -1,30 +1,103 @@
-body{
-    font-family: Tahoma;
-    font-size: medium; 
-    /* padding: %;  */
+body {
+  font-family: Verdana;
+  font-size: medium;
+  /* background-image: linear-gradient(#5b5c5c, #dfe4e6); */
+  background-image: linear-gradient(#fafafa, #ffffff);
+
+  /* Background avec un dégradé de couleurs */
+  min-height: 100vh;
+  /* Permet d'étendre le background sur tout l'écran (important) */
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 #images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 1.2cm;
-    transform: translateY(60%)
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1.9cm;
+  transform: translateY(70%);
 }
 
 #textes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 1cm;
-    transform: translateY(30%)
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  transform: translateY(50%);
 }
 
 .footer {
-    transform: translateY(400%);
-    text-align: center;
+  transform: translateY(7cm);
+  text-align: center;
 }
+
+.spotify {
+  -moz-box-shadow: 10px 10px 25px #333333;
+  -webkit-box-shadow: 10px 10px 25px #333333;
+  box-shadow: 10px 10px 25px #333333;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.spotifyimg {
+  margin-left: 1.8cm;
+}
+
+.shazamimg {
+  margin-right: 1.2cm;
+}
+
+.uberimg {
+  margin-right: 1.2cm;
+}
+
+.shazam {
+  -moz-box-shadow: 10px 10px 25px #333333;
+  -webkit-box-shadow: 10px 10px 25px #333333;
+  box-shadow: 10px 10px 25px #333333;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.uber {
+  -moz-box-shadow: 10px 10px 25px #333333;
+  -webkit-box-shadow: 10px 10px 25px #333333;
+  box-shadow: 10px 10px 25px #333333;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#voirbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  transform: translateY(4.7cm);
+  margin-left: 3.7cm;
+  margin-right: 3.7cm;
+  font-size: larger;
+}
+
+.voirshazam,
+.voirubereats {
+  margin-right: 0.9cm;
+}
+.voirspotify {
+  margin-left: 0.4cm;
+  margin-right: 1.1cm;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a :hover {
+  color: rgb(92, 92, 100);
+}
+/* Hover = la propriété quand on survole avec la souris */

@@ -1,0 +1,68 @@
+body{
+    background-color: #67D861;
+    font-size: larger;
+    color: white;
+    font-family: Tahoma;
+
+}
+
+.imgheader {
+display: flex;
+justify-content: center;
+}
+
+#blocspot1, #blocspot3 {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    margin-right: 3cm;
+
+}
+
+.textspot1, .textspot3 {
+    margin-right: 1cm;
+    margin-top: 5cm;
+}
+
+.textspot2, .textspot4 {
+    margin-left: 1cm;
+    margin-top: 5cm;
+}
+
+#blocspot2, #blocspot4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3cm;
+}
+
+#getitimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#réseauxspotify {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.réseaux {
+text-align: center;
+font-size: larger;
+}
+
+.facebook {
+    margin-right: 1cm;
+}
+
+.twitter {
+    margin-left: 1cm;
+}
+
+
+
+
+
+
